@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js --host localhost --port 8000 --cache ./cache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "private": true,
   "dependencies": {
     "commander": "^13.1.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7",
     "superagent": "^10.2.1"
   },
   "devDependencies": {
